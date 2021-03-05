@@ -55,4 +55,73 @@ a
         color: $color-white
         background-color: #020202
 
+.header-slider
+    width: 100%
+    overflow: hidden
+    position: relative
+
+.slider-wrapper
+    width: 100%
+    height: 100%
+    display: flex
+    
+.header-slide
+    width: 100%
+    flex-shrink: 0
+    margin-bottom: 60px
+
+.slide-img
+    width: 100%
+
+.swiper-button-next
+    background-image: url(../images/header-arrow-right.svg)
+    width: 68px
+    height: 68px
+    content: none
+    border-radius: 50%
+    &:after
+        content: none
+
+.swiper-button-prev
+    background-image: url(../images/header-arrow-left.svg)
+    width: 68px
+    height: 68px
+    content: none
+    border-radius: 50%
+    &:after
+        content: none
+
+.header_wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 70px
+
+.header_search-text
+    font-size: 24px
+    line-height: 24px
+    font-family: $text-fonts
+    color: $color-text  
+
+.header_form-search
+    display: flex
+
+.form_search-info
+    margin-left: 69px
+    width: 431px
+    font-size: 18px
+    line-height: 24px
+    padding: 23px 0 23px 15px
+    color: $color-text
+    border: 2px solid #C4C4C4
+
+.form_search-btn
+    font-family: $text-fonts
+    font-size: 24px
+    line-height: 24px
+    width: 121px
+    background-color: #C4C4C4
+    border: 2px solid #C4C4C4
+    color: $color-white
+    padding: 15px
     

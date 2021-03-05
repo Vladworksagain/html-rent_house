@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="sass/main.sass">
     <title>rent</title>
 </head>
@@ -46,8 +47,44 @@
                 </ul>
             </nav>
         </div>
-    </header>
+        <div class="header-slider">
+            <div class="slider-wrapper">
+                <div class="header-slide">
+                    <img class="slide-img" src="images/header-slider.jpg" alt="#">
+                </div>
+                <div class="header-slide">
+                    <img class="slide-img" src="images/header-slider.jpg" alt="#">
+                </div>
+                <div class="header-slide">
+                    <img class="slide-img" src="images/header-slider.jpg" alt="#">
+                </div>
+                <div class="header-slide">
+                    <img class="slide-img" src="images/header-slider.jpg" alt="#">
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="container">
+            <div class="header_wrapper">
+                <p class="header_search-text">
+                    Поиск <br>
+                    Аппартаментов
+                </p>
+                <form class="header_form-search">
+                    <input type="text" class="form_search-info" placeholder="Введите город">
+                    <button type="submit" class="form_search-btn">
+                        <img class="form-img" src="images/form-img.svg" alt="#">
+                        Найти
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>   
 
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
