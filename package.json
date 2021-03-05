@@ -1,0 +1,38 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "swiper": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-custom-dist-structure": "^1.1.16",
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "start": "parcel src/index.html -p 3000 --open",
+    "clean": "rm -rf dist/*",
+    "build": "parcel build src/index.html --public-url ./ --no-source-maps",
+    "build:parcel": "npm run clean && npm run build"  
+  },
+  "author": "",
+  "license": "ISC",
+  "customDistStructure": {
+    "config": {
+      ".js": "assets/js",
+      ".js.map": "assets/js",
+      "assets/img": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      ".css": "assets/css",
+      ".css.map": "assets/css"
+    },
+    "options": {
+      "development": true
+    }
+  }
+}
