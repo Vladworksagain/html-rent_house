@@ -1,2 +1,58 @@
 @import reset.scss
 
+// font-family: "PT Serif'", serif
+// font-family: "Roboto Condensed", sans-serif
+
+$title-fonts: "PT Serif'", serif
+$text-fonts: "Roboto Condensed", sans-serif
+
+$color-white: #ffffff
+$color-text: #888888
+$color-short-title: #000000
+
+a
+    outline: none !important
+    text-decoration: none
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 15px
+
+.header_logo
+    padding: 88px 0 60px 0
+    text-align: center
+    border-bottom: 2px solid #C4C4C4
+
+.menu-list
+    display: flex
+    justify-content: center
+
+.list_item
+    border: 2px solid #C4C4C4
+    border-top: none
+    max-width: 300px
+    height: 100px
+    display: flex
+    align-items: center
+    &:nth-child(1)
+        border-right: none
+    &:nth-child(2)
+        border-right: none
+    &:nth-child(3)
+        border-right: none
+            
+.item-link
+    font-family: $text-fonts
+    font-size: 24px
+    line-height: 28px
+    color: $color-text
+    white-space: nowrap
+    padding: 35px 100px
+    text-align: center
+    transition: .3s
+    &:hover
+        color: $color-white
+        background-color: #020202
+
+    
