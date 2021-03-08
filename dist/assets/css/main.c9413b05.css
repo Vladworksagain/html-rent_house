@@ -554,4 +554,41 @@ a {
   padding: 11px 47px;
 }
 
+.about_inner-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_top-content {
+  display: flex;
+}
+
+.top_content-title {
+  font-family: "PT Serif'", serif;
+  color: #000000;
+  font-size: 36px;
+  line-height: 36px;
+  padding: 0 0 20px 33px;
+  max-width: 350px;
+}
+
+.about_info-text {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 470px;
+  padding-bottom: 45px;
+}
+
+.about_info-btn {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #888888;
+  text-decoration: underline;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=/assets/css/main.c9413b05.css.map */
